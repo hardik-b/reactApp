@@ -11,6 +11,8 @@ import todoApp1 from './reduxUsage/reducers/reducers';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import AppRedux from './AppRedux.jsx';
+import AppAa from './animations/AppAa.jsx'
+import AppELa from './animations/AppELa.jsx'
 
 //ReactDOM.render(<App />, document.getElementById('app'));
 //ReactDOM.render(<AppSetState />, document.getElementById('app'));
@@ -67,10 +69,14 @@ import AppRedux from './AppRedux.jsx';
 
 //export default todoApp1;
 
-let mystore = createStore(todoApp1);
-let rootElement = document.getElementById('app');
+// let mystore = createStore(todoApp1);
+// let rootElement = document.getElementById('app');
 
 
-ReactDOM.render( <Provider store = {mystore}>
-          <AppRedux></AppRedux>
-       </Provider>, rootElement);
+// ReactDOM.render( <Provider store = {mystore}>
+//           <AppRedux></AppRedux>
+//        </Provider>, rootElement);
+
+//******* Animations related */
+//ReactDOM.render(<AppAa/>, document.getElementById('app'));
+ReactDOM.render(<AppELa/>, document.getElementById('app'));
