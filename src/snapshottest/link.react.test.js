@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from './link.react';
-import renderer from 'react-test-renderer';
+import renderer from 'react-test-renderer'
 
 it('renders correctly', () => {
   const tree = renderer

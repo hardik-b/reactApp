@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './App.js';
+import App from './App.js';
 // import AppSetState from './AppSetState.js';
 // import AppFindDom from './AppFindDom.js';
 // import AppLifeCycle from './AppLifeCycle.js';
@@ -12,7 +12,7 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import AppRedux from './AppRedux.jsx';
 import AppAa from './animations/AppAa.jsx'
-import AppELa from './animations/AppELa.jsx'
+import AppELa from './animations/AppELa.jsx';
 
 //ReactDOM.render(<App />, document.getElementById('app'));
 //ReactDOM.render(<AppSetState />, document.getElementById('app'));
@@ -79,4 +79,4 @@ import AppELa from './animations/AppELa.jsx'
 
 //******* Animations related */
 //ReactDOM.render(<AppAa/>, document.getElementById('app'));
-ReactDOM.render(<AppELa/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById('app'));
